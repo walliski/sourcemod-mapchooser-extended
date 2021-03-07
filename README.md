@@ -1,0 +1,14 @@
+# Sourcemod Mapchooser Extended
+
+This repository is a fork of a fork of a fork ᵒᶠ ᵃ ᶠᵒʳᵏ...
+
+The goal of this fork is to gather some of the changes and bugfixes that have been made to this plugin, but have been
+spread out among the many forks there are, and sometimes baked into other features. For example Sneaks-Community has
+added support for Tiers from various plugins, which I do not need, but otherwise has some nice fixes.
+
+In the future, here might be a list of fixes compared to the original version uploaded to GitHub by powerlord.
+
+## Credits
+
+- [Powerlord, originally uploaded plugin](https://github.com/powerlord/sourcemod-mapchooser-extended)
+- [AlliedModders thread](https://forums.alliedmods.net/showthread.php?t=156974)

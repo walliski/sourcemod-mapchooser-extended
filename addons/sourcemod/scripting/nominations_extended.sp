@@ -292,7 +292,7 @@ public Action:Command_Nominate(client, args)
 	decl String:name[MAX_NAME_LENGTH];
 	GetClientName(client, name, sizeof(name));
 	PrintToChatAll("[NE] %t", "Map Nominated", name, mapName);
-	LogMessage("%s nominated %s", name, mapname);
+	LogMessage("\"%L\" nominated %s", client, mapname);
 
 	return Plugin_Continue;
 }
@@ -415,7 +415,7 @@ public Handler_MapSelectMenu(Handle:menu, MenuAction:action, param1, param2)
 			}
 			
 			PrintToChatAll("[NE] %t", "Map Nominated", name, mapName);
-			LogMessage("%s nominated %s", name, map);
+			LogMessage("\"%L\" nominated %s", param1, map);
 		}
 		
 		case MenuAction_DrawItem:

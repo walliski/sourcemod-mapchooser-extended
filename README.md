@@ -14,6 +14,7 @@ The changes that have been merged into this branch compared to powerlord's versi
 
 - Added support for custom map names.
 - Fixed Russian translations.
+- Log steamid when someone nominates a map.
 
 ## Credits
 

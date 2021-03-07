@@ -12,7 +12,7 @@
  * This program is free software; you can redistribute it and/or modify it under
  * the terms of the GNU General Public License, version 3.0, as published by the
  * Free Software Foundation.
- * 
+ *
  * This program is distributed in the hope that it will be useful, but WITHOUT
  * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
  * FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more
@@ -52,7 +52,7 @@ enum CanNominateResult
 
 /**
  * Called whenever warning timer starts
- * 
+ *
  */
 forward OnMapVoteWarningStart();
 
@@ -68,7 +68,7 @@ forward OnMapVoteWarningTick(time);
 
 /**
  * Called whenever vote starts
- * 
+ *
  * @deprecated Will be removed in MapChooser 1.8.  Use OnMapVoteStarted instead.
  */
 forward OnMapVoteStart();
@@ -81,7 +81,7 @@ forward OnMapVoteEnd(const String:map[]);
 /**
  * Is a map on the current game's official list?
  * This should be treated as informative only.
- * 
+ *
  * @param map 	Name of map to check
  * @return 		true if it's on the list of official maps for this game
  */
@@ -89,7 +89,7 @@ native bool:IsMapOfficial(const String:map[]);
 
 /**
  * Is nominate allowed?
- * 
+ *
  * @return		A CanNominateResult corresponding to whether a vote is allowed or not
  */
 native CanNominateResult:CanNominate();
@@ -104,7 +104,7 @@ native CanNominateResult:CanNominate();
  */
 native bool:GetMapName(const String:map[], String:mapName[], size);
 
-public SharedPlugin:__pl_mapchooser_extended = 
+public SharedPlugin:__pl_mapchooser_extended =
 {
 	name = "mapchooser",
 	file = "mapchooser_extended.smx",

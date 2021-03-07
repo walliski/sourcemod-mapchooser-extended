@@ -20,4 +20,6 @@ The changes that have been merged into this branch compared to powerlord's versi
 ## Credits
 
 - [Powerlord, originally uploaded plugin](https://github.com/powerlord/sourcemod-mapchooser-extended)
+- [Sneaks-Community fork](https://github.com/Sneaks-Community/sourcemod-mapchooser-extended) from which many changes for
+  this one has been taken.
 - [AlliedModders thread](https://forums.alliedmods.net/showthread.php?t=156974)

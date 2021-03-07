@@ -8,6 +8,13 @@ added support for Tiers from various plugins, which I do not need, but otherwise
 
 In the future, here might be a list of fixes compared to the original version uploaded to GitHub by powerlord.
 
+## Changes
+
+The changes that have been merged into this branch compared to powerlord's version.
+
+- Added support for custom map names.
+- Fixed Russian translations.
+
 ## Credits
 
 - [Powerlord, originally uploaded plugin](https://github.com/powerlord/sourcemod-mapchooser-extended)

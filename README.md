@@ -16,6 +16,7 @@ The changes that have been merged into this branch compared to powerlord's versi
 - Fixed Russian translations.
 - Log steamid when someone nominates a map.
 - Ceil instead of Floor votes needed.
+- Remove NativeVotes include.
 
 ## Credits
 

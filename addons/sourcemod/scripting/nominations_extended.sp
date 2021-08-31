@@ -35,7 +35,7 @@
 #include <sourcemod>
 #include <mapchooser>
 #include "include/mapchooser_extended"
-#include <colors>
+#include <sourcemod-colors>
 #pragma semicolon 1
 
 #define MCE_VERSION "1.10.0"

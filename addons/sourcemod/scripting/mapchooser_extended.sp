@@ -49,7 +49,7 @@
 #include "include/mapchooser_extended"
 #include <nextmap>
 #include <sdktools>
-#include <colors>
+#include <sourcemod-colors>
 
 #undef REQUIRE_PLUGIN
 

@@ -36,7 +36,7 @@
 #include <mapchooser>
 #include "include/mapchooser_extended"
 #include <nextmap>
-#include <colors>
+#include <sourcemod-colors>
 
 #pragma semicolon 1
 

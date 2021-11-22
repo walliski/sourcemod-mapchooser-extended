@@ -1,16 +1,18 @@
 # Sourcemod Mapchooser Extended
 
+> **Note:** This was a project that I started to clean up and make a "proper" version of this plugin, since many asked about it.
+> It got left behind a bit, and is currently untested and not actively developed. Your miles may vary when using
+> this version. Make sure to also check out Sneak's community's fork, linked below in the Credits section.
+
 This repository is a fork of a fork of a fork ᵒᶠ ᵃ ᶠᵒʳᵏ...
 
 The goal of this fork is to gather some of the changes and bugfixes that have been made to this plugin, but have been
 spread out among the many forks there are, and sometimes baked into other features. For example Sneaks-Community has
 added support for Tiers from various plugins, which I do not need, but otherwise has some nice fixes.
 
-In the future, here might be a list of fixes compared to the original version uploaded to GitHub by powerlord.
-
 ## Changes
 
-The changes that have been merged into this branch compared to powerlord's version.
+The changes that have been merged into this branch compared to the original, powerlord's, version.
 
 - Added support for custom map names.
 - Fixed Russian translations.
